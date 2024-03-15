@@ -1,0 +1,38 @@
+// Подключение шрифтов
+@font-face {
+    font-family: "Nunito";
+    src: url("../fonts/Nunito/Nunito-Bold.ttf");
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Nunito";
+    src: url("../fonts/Nunito/Nunito-Medium.ttf");
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Nunito";
+    src: url("../fonts/Nunito/Nunito-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "OpenSans";
+    font-weight: 700;
+    src: url("../fonts/Open_Sans/OpenSans-Bold.ttf");
+}
+@font-face {
+    font-family: "OpenSans";
+    src: url("../fonts/Open_Sans/OpenSans-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Unbounded";
+    src: url("../fonts/Unbounded/Unbounded-Bold.ttf");
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Unbounded";
+    src: url("../fonts/Unbounded/Unbounded-Regular.ttf");
+    font-weight: 400;
+}

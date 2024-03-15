@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/media/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <title>SkiGear</title>
+</head>
+
+<body>
+
+    <div class="basket">
+        <div class="basket__popup">
+            <div class="basket__close">
+                <span></span>
+            </div>
+
+            <div class="basket__title basket__content">Ваш заказ</div>
+
+            <div class="basket__container">
+                <div class="basket__cards ">
+                    <div class="basket__card bc basket__content">
+                        <div class="bc__close">
+                            <span></span>
+                        </div>
+
+                        <div class="bc__left">
+                            <img src="assets/media/tovar-1.jpg" alt="tovar">
+                        </div>
+                        <div class="bc__rigth">
+                            <p class="bc__name">Комбинезон Тундра STREET 2023</p>
+                            <p class="bc__feature"><span>Цвет:</span> оранжевый</p>
+                            <p class="bc__feature"><span>Размер:</span> S</p>
+                            <div class="bc__bottom">
+                                <div class="bc__count">
+                                    <button class="bc__minus">-</button>
+                                    <p class="bc__count-text">1</p>
+                                    <button class="bc__plus">+</button>
+                                </div>
+
+                                <p class="bc__price">41 000 ₽</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="basket__card bc basket__content">
+                        <div class="bc__close">
+                            <span></span>
+                        </div>
+
+                        <div class="bc__left">
+                            <img src="assets/media/tovar-1.jpg" alt="tovar">
+                        </div>
+                        <div class="bc__rigth">
+                            <p class="bc__name">Комбинезон Тундра STREET 2023</p>
+                            <p class="bc__feature"><span>Цвет:</span> оранжевый</p>
+                            <p class="bc__feature"><span>Размер:</span> S</p>
+                            <div class="bc__bottom">
+                                <div class="bc__count">
+                                    <button class="bc__minus">-</button>
+                                    <p class="bc__count-text">1</p>
+                                    <button class="bc__plus">+</button>
+                                </div>
+
+                                <p class="bc__price">41 000 ₽</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="basket__bottom basket__content">
+                    <div class="basket__textBlock">
+                        <input class="basket__promocode" type="text" placeholder="ПРОМОКОД">
+                    </div>
+                    <div class="basket__textBlock">
+                        <p>Доставка</p>
+                        <p>200 ₽</p>
+                    </div>
+                    <div class="basket__textBlock big">
+                        <p>Сумма заказа</p>
+                        <p>7 699 ₽</p>
+                    </div>
+
+                    <button class="basket__btn">Оформить заказ</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Шапка -->
+    <div class="header _welcome">
+        <header class="header__content content">
+            <a href="index.html" class="logo">
+                <img src="assets/media/logo.png" alt="logo">
+                <p>SkiGear</p>
+            </a>
+
+            <div class="header__left">
+                <nav class="header__navigation">
+                    <div class="header__menuExit"></div>
+
+                    <a class="navigation" href="#about">О нас</a>
+                    <a class="navigation" href="catalog.html">Каталог</a>
+                    <a class="navigation" href="#news">Новости</a>
+                    <a class="navigation" href="#">Контакты</a>
+                </nav>
+
+                <div class="header__img">
+                    <img src="assets/media/heart-white.svg" alt="heart-white">
+                </div>
+
+                <div class="header__img">
+                    <img src="assets/media/basket.svg" alt="basket">
+                </div>
+
+                <div class="header__burger"></div>
+            </div>
+        </header>
+
+        <!-- Баннер -->
+        <div class="banner _welcome">
+            <div class="banner__text">
+                <h1>ШЕПЧЕТ СНЕГ</h1>
+                <p>что пора кататься!</p>
+                <a href="#about" class="banner__arrow">
+                    <span>></span>
+                    <span>></span>
+                    <span>></span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Каталоги -->
+    <section class="catalog content">
+        <h2 class="underlined">Каталог товаров</h2>
+        <div class="catalog__cards">
+            <div class="catalog__card">
+                <img src="assets/media/catalog-1.jpg" alt="catalog__card">
+                <div class="catalog__text">
+                    <h4>КОМБИНЕЗОНЫ</h4>
+                    <p>Чувствуйте себя комфортно в любых условиях</p>
+                    <a href="catalog.html">подробнее</a>
+                </div>
+            </div>
+            <div class="catalog__card">
+                <img src="assets/media/catalog-2.jpg" alt="catalog__card">
+                <div class="catalog__text">
+                    <h4>СНОУКАЙТБОРДЫ</h4>
+                    <p>Для фрирайда и фристайла в любых условиях</p>
+                    <a href="catalog.html">подробнее</a>
+                </div>
+            </div>
+            <div class="catalog__card">
+                <img src="assets/media/catalog-3.jpg" alt="catalog__card">
+                <div class="catalog__text">
+                    <h4>АКСЕССУАРЫ</h4>
+                    <p>Оригинальные образы в едином стиле</p>
+                    <a href="catalog.html">подробнее</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Блок о нас -->
+    <section class="about content" id="about">
+        <h2 class="underlined">Добро пожаловать в SkiGear!</h2>
+
+        <div class="about__info">
+            <img src="assets/media/logo-mega.svg" alt="logo-mega">
+
+            <div class="about__cards">
+                <div class="about__card">
+                    <p>Наша команда - настоящие любители горнолыжного спорта, и мы знаем, насколько важно иметь
+                        надежное
+                        снаряжение.</p>
+                    <img src="assets/media/about-1.jpg" alt="about">
+                </div>
+
+                <div class="about__card">
+                    <img src="assets/media/about-2.jpg" alt="about">
+                    <p>Независимо от вашего уровня подготовки, у нас вы найдете все необходимое для комфортного
+                        катания
+                        и безопасности на склонах!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Блок с новостями -->
+    <section class="news">
+        <div class="news__left news-nl">
+            <div class="news-nl__content">
+                <h2>НАШ БЛОГ</h2>
+                <p>Рассказываем, где можно прокатиться, как подготовиться в сложному спуску, показываем техники и
+                    трюки,
+                    а так же многое другое</p>
+                <button>Смотреть всё</button>
+            </div>
+        </div>
+
+        <div class="news__right news-nr">
+            <div class="news-nr__top">
+                <h3>Новые</h3>
+
+                <div class="news-nr__btns">
+                    <button class="news__arrow">←</button>
+                    <button class="news__arrow arrow__left">→</button>
+                </div>
+            </div>
+            <div class="news-nr__cards slider">
+                <div class="news-nr__card active">
+                    <img src="assets/media/news-1.jpg" alt="news">
+                    <div class="news-nr__card-text">
+                        <p>Популярный бренд тундра выпустила линейку горнолыжной экипировки.</p>
+                        <button>Подробнее <span>→</span></button>
+                    </div>
+                </div>
+                <div class="news-nr__card">
+                    <img src="assets/media/news-2.jpg" alt="news">
+                    <div class="news-nr__card-text">
+                        <p>Эксперты рассказывают о трендах в горнолыжной экипировке этого года. </p>
+                        <button>Подробнее →</button>
+                    </div>
+                </div>
+                <div class="news-nr__card">
+                    <img src="assets/media/news-3.jpg" alt="news">
+                    <div class="news-nr__card-text">
+                        <p>Подборка самых функциональных горнолыжных костюмов и аксессуаров </p>
+                        <button>Подробнее →</button>
+                    </div>
+                </div>
+                <div class="news-nr__card">
+                    <img src="assets/media/news-4.jpg" alt="news">
+                    <div class="news-nr__card-text">
+                        <p>Только сегодня специальное предложение на горнолыжную экипировку от известных брендов.
+                        </p>
+                        <button>Подробнее →</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Блок с формой, информацией и картой -->
+    <section class="FIM content">
+        <div class="forms">
+            <h3 class="FIM__title">Есть вопросы?</h3>
+            <p class="FIM__text">Заполните форму, и мы обязательно Вам ответим</p>
+            <input type="text" placeholder="Имя">
+            <input type="text" placeholder="Номер телефона">
+            <button>Записаться</button>
+            <p class="FIM__textMini">Нажимая кнопку, принимаю условия политики и пользовательского соглашения</span>
+        </div>
+
+        <div class="info">
+            <div class="info__left">
+                <h3 class="FIM__title">Контакты</h3>
+                <p class="FIM__textMini"><span>Телефон:</span> +79658426587</p>
+                <p class="FIM__textMini"><span>Почта:</span> skigear@mail.ru</p>
+                <p class="FIM__textMini"><span>Адрес:</span> г. Казань, ул Галеева 3</p>
+                <p class="FIM__textMini"><span>Режим работы: </span> 9:00-21:00, ПН-ПТ</p>
+            </div>
+            <div class="info__rigth">
+                <img src="assets/media/telegram.png" alt="telegram">
+                <img src="assets/media/vk.png" alt="vk">
+                <img src="assets/media/whatsApp.png" alt="whatsApp">
+            </div>
+        </div>
+
+        <div class="map">
+            <div>
+                <iframe
+                    src="https://yandex.ru/map-widget/v1/?ll=49.175882%2C55.801814&mode=search&oid=141185495483&ol=biz&sctx=ZAAAAAgBEAAaKAoSCSB%2B%2FnvwlkhAEVQB9zx%2F5ktAEhIJuwz%2F6QYKtD8RjV2iemtgmz8iBgABAgMEBSgKOABAjJ0GSAFqAnJ1nQHNzEw9oAEAqAEAvQFFby9DwgEGu%2BO%2B%2Bo0EggIR0LzRhtC6INC60YLQuNGC0YGKAgCSAgMyMTOaAgxkZXNrdG9wLW1hcHOwAgE%3D&sll=49.175882%2C55.801814&sspn=0.016456%2C0.005620&text=%D0%BC%D1%86%D0%BA%20%D0%BA%D1%82%D0%B8%D1%82%D1%81&z=16.25"
+                    width="100%" height="280" frameborder="1" allowfullscreen="true"
+                    style="position:relative;"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="content">
+        <a href="index.html" class="logo footer">
+            <img src="assets/media/logo.png" alt="logo">
+            <p>SkiGear</p>
+        </a>
+        <nav>
+            <a class="navigation" href="#about">О нас</a>
+            <a class="navigation" href="catalog.html">Каталог</a>
+            <a class="navigation" href="#news">Новости</a>
+            <a class="navigation" href="#">Контакты</a>
+        </nav>
+        <p>©2024 SkiGear</p>
+    </footer>
+    <script src="assets/js/welcome.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

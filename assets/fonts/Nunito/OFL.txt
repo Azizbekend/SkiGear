@@ -1,0 +1,47 @@
+Вставить в строку 126!!!
+
+                <!-- Карста с транспортом -->
+                <div class="form__card">
+                    <p class="form__middleName">Потребуется ли вам трансфер?</p>
+                    <div class="form__inp radio cars ">
+                        <div>
+                            <input type="radio" name="transport" id="transport-1" value="no">
+                            <label class="form__rad" for="transport-1">Нет</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="transport" id="transport-2" value="befor">
+                            <label class="form__rad" for="transport-2">Только до торжества</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="transport" id="transport-3" value="after">
+                            <label class="form__rad" for="transport-3">Только после торжества</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="transport" id="transport-4" value="beforAndAfter">
+                            <label class="form__rad" for="transport-4">И до и после торжества</label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Карта с предпочтением в еде -->
+                <div class="form__card">
+                    <p class="form__middleName">Есть ли у вас предпочтения в еде?</p>
+                    <div class="form__inp radio foods">
+                        <div>
+                            <input type="radio" name="food" id="food-1" value="no">
+                            <label class="form__rad" for="food-1">Нет</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="food" id="food-2" value="noMeat">
+                            <label class="form__rad" for="food-2">Не ем мясо</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="food" id="food-3" value="noFish">
+                            <label class="form__rad" for="food-3">Не ем рыбу</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="food" id="food-4" value="vegetarian">
+                            <label class="form__rad" for="food-4">Вегетарианец</label>
+                        </div>
+                    </div>
+                </div>
